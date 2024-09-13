@@ -40,7 +40,7 @@ const CustomButton = ({ onPress, title, bgVariant="primary", textVariant="defaul
         { ...props}
     >
         {IconLeft && <IconLeft />}
-        <Text className={`text-lg font-bold ${getTextVariantStyle(textVariant)}`}>{title}</Text>
+        <Text className={`text-lg font-JakartaBold ${getTextVariantStyle(textVariant)}`}>{title}</Text>
         {IconRight && <IconRight />}
     </TouchableOpacity>
   )
