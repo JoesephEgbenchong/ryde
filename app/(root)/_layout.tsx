@@ -1,7 +1,7 @@
 import { Stack } from 'expo-router'
 import React from 'react'
 
-const Layout = () => {
+const RootLayout = () => {
   return (
     <Stack>
         <Stack.Screen name='(tabs)' options={{ headerShown: false }} />
@@ -9,4 +9,4 @@ const Layout = () => {
   )
 }
 
-export default Layout
+export default RootLayout

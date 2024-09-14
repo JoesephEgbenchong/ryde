@@ -145,7 +145,7 @@ const SignUp = () => {
                     </Text>
 
                     <InputField 
-                        label='Code'
+                        label='Enter Code'
                         icon={icons.lock}
                         placeholder='12345'
                         value={verification.code}
